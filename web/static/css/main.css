@@ -1,0 +1,17 @@
+.main{
+    width: 800px;
+    min-height: 100px;
+    background-color: #131313;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 48px;
+    border: 6px solid #221c1c;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    min-height: 100px;
+}

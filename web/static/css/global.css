@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapers.com/images/hd/4k-nature-lake-and-mountain-azf9im6zp97ftghu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    height: 65px;
+}
+
+p {
+    font-size: 24px;
+    color:  #e4e2e2;
+    font-weight: bold;
+}
+
+h2 {
+    color:  #e4e2e2;
+    font-weight: normal;
+}
+
+h1 {
+    color:  #e4e2e2;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.erro {
+    border: 2px solid red !important;
+}
