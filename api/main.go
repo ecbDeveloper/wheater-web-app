@@ -18,7 +18,7 @@ func main() {
 		AllowHeaders: []string{"Content-Type", "Accept"},
 	}))
 
-	e.GET("/getweather/:city", handlers.GetWheater) //TEMPLATE RENDER
+	e.GET("/getweather/:city", handlers.GetWheater)
 	e.GET("/health", handlers.Health)
 
 	e.Logger.Fatal(e.Start(":8002"))
